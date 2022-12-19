@@ -244,6 +244,27 @@ function niftyProjectLiveFunc () {
 }
 
 
+let git4 = document.getElementById("GitHub4")
+git4.addEventListener("click", JobNestFunc);
+
+
+function JobNestFunc () {
+    window.open("https://github.com/Sahnawaz7hussain/common-dock-7043","_blank")
+
+}
+
+
+
+let Netlify4 = document.getElementById("Netlify4")
+Netlify4.addEventListener("click", JobNestFuncLiveFunc);
+
+
+function JobNestFuncLiveFunc () {
+    window.open("https://jobnest-72auhwmel-iamamitkumarsaini.vercel.app/","_blank");
+
+}
+
+
 
 let gitHubIcon = document.getElementById("githubIcon");
 gitHubIcon.addEventListener("click",GitHubProfileFunc)
@@ -297,3 +318,46 @@ function ContactFunc (){
     const contactMe = document.getElementById("ContactMe");
     contactMe.scrollIntoView(false);
 };
+
+
+
+
+let NavbarAbout2 = document.getElementById("NavbarAbout2");
+let NavbarSkills2 = document.getElementById("NavbarSkills2");
+let NavbarProjects2 = document.getElementById("NavbarProjects2");
+let NavbarContact2 = document.getElementById("NavbarContact2");
+let home2 = document.getElementById("SShome");
+
+NavbarAbout2.addEventListener("click", AboutFunc);
+NavbarSkills2.addEventListener("click", SkillsFunc);
+NavbarProjects2.addEventListener("click", ProjectsFunc);
+NavbarContact2.addEventListener("click", ContactFunc);
+home2.addEventListener("click", AboutFunc);
+
+let crossBtn = document.getElementById("crossicon");
+let vhBar = document.getElementById("ssCollection");
+let ssIcon = document.getElementById("ssicon")
+let crossicon = document.getElementById("crossicon")
+ssIcon.addEventListener("click",showvhBarFunc)
+
+crossBtn.addEventListener("click", crossBtnFunc);
+
+crossicon.addEventListener("mouseover", mouseOverFunc)
+ssIcon.addEventListener("mouseover", mouseOverNavFunc)
+
+function crossBtnFunc () {
+    vhBar.style.display = "none"
+}
+
+
+function showvhBarFunc () {
+    vhBar.style.display = "block"
+}
+
+function mouseOverFunc () {
+    crossicon.style.cursor = "pointer"
+}
+
+function mouseOverNavFunc () {
+    ssIcon.style.cursor = "pointer"
+    }

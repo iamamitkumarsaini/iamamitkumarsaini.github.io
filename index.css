@@ -189,7 +189,7 @@ p{
 }
 
 
-#Projects{
+#projects{
     border: 1px solid #343148FF;
     padding: 30px;
     text-align: center;
@@ -198,7 +198,7 @@ p{
   
 }
 
-#Projects>h1{
+#projects>h1{
     color: white;
     letter-spacing: 2px;
 }
@@ -470,7 +470,7 @@ p{
         grid-template-columns: repeat(2,1fr);
     }
 
-    #Projects{
+    #projects{
         padding: 10px;
     }
     
@@ -546,7 +546,7 @@ p{
         grid-template-columns: repeat(3,1fr);
     }
 
-    #Projects{
+    #projects{
         padding: 10px;
     }
     

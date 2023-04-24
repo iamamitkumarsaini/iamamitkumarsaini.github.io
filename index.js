@@ -310,7 +310,7 @@ function SkillsFunc (){
 }
 
 function ProjectsFunc (){
-    const projects = document.getElementById("Projects");
+    const projects = document.getElementById("projects");
     projects.scrollIntoView(true);
 }
 

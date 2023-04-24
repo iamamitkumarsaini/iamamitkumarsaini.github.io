@@ -13,7 +13,7 @@ p{
 }
 
 
-#navbar{
+#nav-menu{
     display: flex;
     border: 1px solid #022140;
     justify-content: space-between;
@@ -28,20 +28,20 @@ p{
     /* display: none; */
 }
 
-#subNav1{
+#home{
     display: flex;
     align-items: center;
 }
 
-#subNav1:hover{
+#home:hover{
     cursor: pointer;
 }
 
-#subNav1>div:nth-child(2){
+#home>div:nth-child(2){
     padding: 0 25px;
 }
 
-#subNav1>div:nth-child(2):hover{
+#home>div:nth-child(2):hover{
     background-color: white;
     color:#022140;
 }
@@ -120,7 +120,7 @@ p{
     margin-top: 40px;
 }
 
-#resumeBtn{
+#resume-link-2{
     padding: 12px 30px;
     font-size: 18px;
     letter-spacing: 1.5px;
@@ -133,7 +133,7 @@ p{
     margin-top: 30px;
 }
 
-#resumeBtn:hover{
+#resume-link-2:hover{
     background-color: #2E151B;
     cursor: pointer;
 }
@@ -162,12 +162,12 @@ p{
     margin-bottom: 40px;
 }
 
-.skillset{
+.skills-card{
     width: fit-content;
     text-align: center;
 }
 
-.skillset>h3{
+.skills-card>h3{
     width: 90px;
     padding: 8px 22px 8px 8px;
     background-color: aliceblue;
@@ -176,7 +176,7 @@ p{
     margin-bottom: 0px;
 }
 
-.skillset>img{
+.skills-card>img{
     background-color: #363636;
     width: 90px;
     padding: 12px;
@@ -218,7 +218,7 @@ p{
     padding: 12px;
 }
 
-.prImage{
+.project-card{
     width: 100%;
 }
 
@@ -238,12 +238,12 @@ p{
     margin: 40px 0;
 }
 
-.techStack{
+.project-tech-stack{
     display: flex;
     justify-content: space-around;
 }
 
-.techStack>div>h4{
+.project-tech-stack>div>h4{
     font-size: 18px;
     background-color: #00203FFF;
     color: white;
@@ -269,7 +269,7 @@ p{
 }
 
 
-#ContactMe{
+#contact{
     background-color: #022140;
     padding: 40px 0;
     border: 1px solid #022140;
@@ -422,7 +422,7 @@ p{
 
 
 @media all and (min-width:280px) and (max-width:480px){
-    #navbar{
+    #nav-menu{
         display: none;
     }
 
@@ -475,7 +475,7 @@ p{
         grid-template-columns: repeat(1,1fr);
     }
 
-    #ContactMe{
+    #contact{
         background-color: #022140;
         padding: 40px 0;
         border: 1px solid #022140;
@@ -498,7 +498,7 @@ p{
 }
 
 @media all and (min-width:481px) and (max-width:767px){
-    #navbar{
+    #nav-menu{
         display: none;
         position: sticky;
     }
@@ -551,7 +551,7 @@ p{
         grid-template-columns: repeat(1,1fr);
     }
 
-    #ContactMe{
+    #contact{
         background-color: #022140;
         padding: 40px 0;
         border: 1px solid #022140;

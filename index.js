@@ -266,7 +266,7 @@ function JobNestFuncLiveFunc () {
 
 
 
-let gitHubIcon = document.getElementById("githubIcon");
+let gitHubIcon = document.getElementById("contact-github");
 gitHubIcon.addEventListener("click",GitHubProfileFunc)
 
 
@@ -275,7 +275,7 @@ function GitHubProfileFunc (){
 }
 
 
-let LinkedInIcon = document.getElementById("LinkedInIcon");
+let LinkedInIcon = document.getElementById("contact-linkedin");
 LinkedInIcon.addEventListener("click",LinkedInProfileFunc)
 
 
@@ -290,7 +290,7 @@ let NavbarAbout = document.getElementById("NavbarAbout");
 let NavbarSkills = document.getElementById("NavbarSkills");
 let NavbarProjects = document.getElementById("NavbarProjects");
 let NavbarContact = document.getElementById("NavbarContact");
-let home = document.getElementById("subNav1");
+let home = document.getElementById("home");
 
 NavbarAbout.addEventListener("click", AboutFunc);
 NavbarSkills.addEventListener("click", SkillsFunc);

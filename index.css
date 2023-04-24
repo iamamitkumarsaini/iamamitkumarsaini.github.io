@@ -218,6 +218,10 @@ p{
     background-color: #fff;
 }
 
+img.project-card{
+    border: 0px solid red;
+}
+
 .project-card{
     width: 100%;
 }

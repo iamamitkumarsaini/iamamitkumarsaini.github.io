@@ -315,7 +315,7 @@ function ProjectsFunc (){
 }
 
 function ContactFunc (){
-    const contactMe = document.getElementById("ContactMe");
+    const contactMe = document.getElementById("contact");
     contactMe.scrollIntoView(false);
 };
 

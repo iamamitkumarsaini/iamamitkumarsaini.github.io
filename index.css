@@ -124,7 +124,7 @@ p{
     margin-top: 40px;
 }
 
-#resume-link-2{
+#resume-button-2{
     padding: 12px 30px;
     font-size: 18px;
     letter-spacing: 1.5px;
@@ -137,7 +137,7 @@ p{
     margin-top: 30px;
 }
 
-#resume-link-2:hover{
+#resume-button-2:hover{
     background-color: #2E151B;
     cursor: pointer;
 }

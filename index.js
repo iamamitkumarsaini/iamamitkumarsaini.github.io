@@ -360,4 +360,28 @@ function mouseOverFunc () {
 
 function mouseOverNavFunc () {
     ssIcon.style.cursor = "pointer"
-    }
+}
+
+console.log(screen.width)   
+
+const githubTopLang = document.getElementById("github-top-langs");
+const githubStats = document.getElementById("github-stats-card");
+
+
+const img = document.createElement("img");
+const img2 = document.createElement("img");
+img.src = `https://github-readme-stats.vercel.app/api?username=iamamitkumarsaini&show_icons=true&theme=dark&count_private=true&line_height=33&card_width=${screen.width>767 ?((screen.width/2)-80): screen.width-20}`;
+img2.src = `https://github-readme-stats.vercel.app/api/top-langs/?username=iamamitkumarsaini&theme=dark&card_width=${screen.width>767 ?((screen.width/2)-80): screen.width-20}`
+
+githubStats.append(img)
+githubTopLang.append(img2)
+
+window.onresize = function () {
+    img.src = `https://github-readme-stats.vercel.app/api?username=iamamitkumarsaini&show_icons=true&theme=dark&count_private=true&line_height=33&card_width=${screen.width>767 ?((screen.width/2)-80): screen.width-20}`;
+    img2.src = `https://github-readme-stats.vercel.app/api/top-langs/?username=iamamitkumarsaini&theme=dark&card_width=${screen.width>767 ?((screen.width/2)-80): screen.width-20}`
+    githubStats.innerHTML = "";
+    githubTopLang.innerHTML = ""
+
+githubStats.append(img)
+githubTopLang.append(img2)
+}

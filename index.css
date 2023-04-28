@@ -100,10 +100,6 @@ p{
     text-align: left;
 }
 
-#github{
-    border: 0px solid red;
-}
-
 #profileDetails>h1{
     font-size: 3rem;
     margin: -10px 0;
@@ -421,6 +417,15 @@ p{
 }
 
 
+#githubThings{
+    width: 99%;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    border: 0px solid red;
+}
+
+
 @media all and (min-width:280px) and (max-width:480px){
     #nav-menu{
         display: none;
@@ -439,7 +444,7 @@ p{
         display: block;
         width: 85%;
         margin: auto;
-        justify-content: space-between;
+        justify-content: space-around;
     }
 
     #profilePic{
@@ -495,6 +500,9 @@ p{
         width: 90%;
     }
 
+    #githubThings{
+        display: block;
+    }
 }
 
 @media all and (min-width:481px) and (max-width:767px){
@@ -560,5 +568,9 @@ p{
     
     #subContactMe{
         width: 90%;
+    }
+
+    #githubThings{
+        display: block;
     }
 }
